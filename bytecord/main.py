@@ -1,0 +1,1 @@
+print("""Visit the GitHub for templates and help""")
