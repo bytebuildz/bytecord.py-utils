@@ -1,9 +1,16 @@
 from setuptools import find_packages, setup
 
+packages = [
+    'bytecord',
+    'bytecord.py_gui',
+    'bytecord.py_logger',
+    'bytecord.py_mobile'
+]
+
 setup(
-    name="bytecord.py-utils",
+    name="bytecord",
     version="1.0.0",
-    packages=find_packages(),
+    packages=packages,
     include_package_data=True,
     license="MIT License",
     description="bytecord.py Utils",
