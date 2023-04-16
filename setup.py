@@ -8,8 +8,8 @@ packages = [
     'liftcord.py_console',
     'liftcord.py_prefix',
     'liftcord.py_slash',
-    'liftcord.py_slash.*',
-    'liftcord.py_prefix.*'
+    'liftcord.py_slash.discord',
+    'liftcord.py_prefix.discord'
 ]
 
 setup(
