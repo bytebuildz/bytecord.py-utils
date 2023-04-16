@@ -5,7 +5,9 @@ packages = [
     'liftcord.py_gui',
     'liftcord.py_logger',
     'liftcord.py_mobile',
-    'liftcord.py_console'
+    'liftcord.py_console',
+    'liftcord.py_replit',
+    'liftcord.py_replit.templates'
 ]
 
 setup(
