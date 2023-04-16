@@ -5,11 +5,7 @@ packages = [
     'liftcord.py_gui',
     'liftcord.py_logger',
     'liftcord.py_mobile',
-    'liftcord.py_console',
-    'liftcord.py_prefix',
-    'liftcord.py_slash',
-    'liftcord.py_slash.discord',
-    'liftcord.py_prefix.discord'
+    'liftcord.py_console'
 ]
 
 setup(
