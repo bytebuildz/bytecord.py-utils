@@ -8,14 +8,14 @@ packages = [
 ]
 
 setup(
-    name="bytecord",
+    name="liftcord.py-tools",
     version="1.0.0",
     packages=packages,
     include_package_data=True,
     license="MIT License",
-    description="bytecord.py Utils",
-    keywords="bytecord.py Utils",
-    url="https://github.com/bytebuildz/bytecord.py-utils/",
+    description="liftcord.py Utils",
+    keywords="liftcord.py Utils",
+    url="https://github.com/bytebuildz/liftcord.py-tools/",
     author=".drmr",
     author_email="hi@icey.fr",
     classifiers=[
