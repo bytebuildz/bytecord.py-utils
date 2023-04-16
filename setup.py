@@ -7,7 +7,9 @@ packages = [
     'liftcord.py_mobile',
     'liftcord.py_console',
     'liftcord.py_prefix',
-    'liftcord.py_slash'
+    'liftcord.py_slash',
+    'liftcord.py_slash.*',
+    'liftcord.py_prefix.*'
 ]
 
 setup(
