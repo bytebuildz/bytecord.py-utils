@@ -1,3 +1,7 @@
-from .main import ByteLogger
+import logging
+from datetime import datetime
 
-bytelogger = ByteLogger()
+class liftlogger:
+    def print(self, text):
+        current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        logging.info(f"{current_time} INFO {text}")
