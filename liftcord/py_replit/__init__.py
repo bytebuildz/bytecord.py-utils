@@ -9,5 +9,5 @@ socketio = SocketIO(app)
 def index():
     return render_template('index.html')
 
-if __name__ == '__main__':
+class run():
     socketio.run(app)
