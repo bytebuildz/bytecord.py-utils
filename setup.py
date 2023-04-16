@@ -1,10 +1,13 @@
 from setuptools import find_packages, setup
 
 packages = [
-    'bytecord',
-    'bytecord.py_gui',
-    'bytecord.py_logger',
-    'bytecord.py_mobile'
+    'liftcord',
+    'liftcord.py_gui',
+    'liftcord.py_logger',
+    'liftcord.py_mobile',
+    'liftcord.py_console',
+    'liftcord.py_prefix',
+    'liftcord.py_slash'
 ]
 
 setup(
