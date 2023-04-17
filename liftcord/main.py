@@ -1,1 +1,2 @@
-print("""Visit the GitHub for templates and help""")
+class every():
+    print("No This IS in dev")

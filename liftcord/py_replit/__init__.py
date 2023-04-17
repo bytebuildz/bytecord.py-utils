@@ -1,14 +1,20 @@
-from flask import Flask, render_template, render_template_string, request
-from flask_socketio import SocketIO, emit
-import flask
+from flask import Flask
+from threading import Thread
+from flask import render_template
 
-app = Flask(__name__)
-socketio = SocketIO(app)
+app = Flask('')
 
-def startreplitsrv():
-    @app.route('/')
-    def index():
-        return render_template('index.html')
-    
-    if __name__ == '__main__':
-        socketio.run(app)
+
+@app.route('/')
+def main():
+  return render_template('index.html')
+
+
+def run():
+  app.run(host="0.0.0.0", port=8080)
+
+
+def alive():
+  server = Thread(target=run)
+  server.start()
+  print(f"Starting | liftcord.py_replit")
