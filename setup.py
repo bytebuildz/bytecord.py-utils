@@ -1,19 +1,13 @@
 from setuptools import find_packages, setup
 
 packages = [
-    'liftcord',
-    'liftcord.py_gui',
-    'liftcord.py_logger',
-    'liftcord.py_mobile',
-    'liftcord.py_console',
-    'liftcord.py_replit',
-    'liftcord.py_replit.templates'
+    'liftcord'
 ]
 
 
 setup(
     name="liftcord.py-tools",
-    version="2.0.1",
+    version="12.0.0",
     packages=packages,
     include_package_data=True,
     license="MIT License",
