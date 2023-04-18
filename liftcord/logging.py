@@ -37,14 +37,12 @@ def log(message, level="INFO"):
         color_code = RED
     elif level == "CRITICAL":
         color_code = PURPLE_START
+    elif level == "SYSTEM":
+        color_code = GREEN
     else:
         color_code = RESET
-    prefix = f"{BOLD}{color_code}[{level}]{RESET} "
-    print(prefix + gradient(message))
+    prefix = f"{BOLD}{color_code}[{level}] liftcord.py-tools | {RESET} "
+    print(prefix + (message))
 
 # Test the logging function
-log("This is an example debug message", "debug")
-log("This is an example info message", "info")
-log("This is an example warning message", "warning")
-log("This is an example error message", "error")
-log("This is an example critical message", "critical")
+log("Loded liftcord", "system")

@@ -7,7 +7,7 @@ packages = [
 
 setup(
     name="liftcord.py-tools",
-    version="12.0.5",
+    version="12.0.6",
     packages=packages,
     include_package_data=True,
     license="MIT License",
