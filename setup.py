@@ -1,5 +1,5 @@
 from setuptools import find_packages, setup
-from .liftcord import version
+import liftcord.version
 
 packages = [
     'liftcord'
@@ -7,7 +7,7 @@ packages = [
 
 setup(
     name="liftcord.py-tools",
-    version=f"{version.version}",
+    version=f"{liftcord.version.version}",
     packages=packages,
     include_package_data=True,
     license="MIT License",
