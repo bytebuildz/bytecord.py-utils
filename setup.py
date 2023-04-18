@@ -2,7 +2,8 @@ from setuptools import find_packages, setup
 from .liftcord.info import __ver__
 
 packages = [
-    'liftcord'
+    'liftcord',
+    'liftcord.info'
 ]
 
 setup(
