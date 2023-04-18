@@ -1,5 +1,4 @@
 from setuptools import find_packages, setup
-import liftcord.version
 
 packages = [
     'liftcord'
