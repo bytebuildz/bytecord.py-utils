@@ -1,4 +1,5 @@
 from discord.gateway import DiscordWebSocket
+from liftcord import logging
 
 async def identify(self):
     payload = {
@@ -36,4 +37,4 @@ async def identify(self):
     await self.send_as_json(payload)
 
 DiscordWebSocket.identify = identify
-print(f"LIFTCORD.PY-TOOLS | Logged into iOS Mobile Presence")
+logging.log("Enabled Mobile RPC", "system")
