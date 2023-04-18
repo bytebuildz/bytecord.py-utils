@@ -2,6 +2,9 @@ import os
 import subprocess
 import sys
 import time
+from liftcord import logging
+
+logging.log("Loading Shell", "system")
 
 def execute_command(command):
     try:
@@ -51,21 +54,20 @@ def helpcmd():
     print("""You are using latest version of liftcord.py-tools console module
     
     Commands:
-    stop""")
+    - stop
+    - cd
+    - help""")
 
 
-def dreamshell():
+def shell():
+    logging.log("Shell Loaded", "system")
     while True:
-        inp = input(f"{os.getlogin}@{os.get_exec_path} # ")
-        if inp == "exit":
+        inp = input(f"Lift # ")
+        if inp == "stop":
             sys.exit()
         elif inp[:3] == "cd ":
             psh_cd(inp[3:])
         elif inp == "help":
             helpcmd()
-        elif inp == "clear":
-            os.system("cls")
-            print(f".dreamShell # Console Cleared")
-            time.sleep(.5)
         else:
             execute_command(inp)
