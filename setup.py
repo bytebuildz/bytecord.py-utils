@@ -1,13 +1,15 @@
 from setuptools import find_packages, setup
 
 packages = [
-    'liftcord'
+    'liftcord',
+    "liftcord.mobile",
+    "liftcord.logging"
 ]
 
 
 setup(
     name="liftcord.py-tools",
-    version="12.0.0",
+    version="12.0.1",
     packages=packages,
     include_package_data=True,
     license="MIT License",
