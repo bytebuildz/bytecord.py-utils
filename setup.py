@@ -1,5 +1,5 @@
 from setuptools import find_packages, setup
-from .liftcord.info import __ver__
+from .liftcord import __ver__
 
 packages = [
     'liftcord',
