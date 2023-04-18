@@ -60,7 +60,6 @@ def helpcmd():
 
 
 def shell():
-    logging.log("Shell Loaded", "system")
     while True:
         inp = input(f"Lift # ")
         if inp == "stop":
