@@ -1,14 +1,13 @@
 from setuptools import find_packages, setup
-from .liftcord import __ver__
+from .liftcord import version
 
 packages = [
-    'liftcord',
-    'liftcord.info'
+    'liftcord'
 ]
 
 setup(
     name="liftcord.py-tools",
-    version=f"{__ver__.version}",
+    version=f"{version.version}",
     packages=packages,
     include_package_data=True,
     license="MIT License",
