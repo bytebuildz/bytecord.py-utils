@@ -1,4 +1,5 @@
 import fade
+import liftcord.none
 
 logo = fade.purplepink(f"""
 
@@ -12,7 +13,7 @@ logo = fade.purplepink(f"""
 
                                                                          
      ┌────────────────────────────────────────────────────────────────────────────────────────┐
-                      Current Version: 13.1.0 | You`re using the latest version
+                      Current Version: {liftcord.__version__} | You`re using the latest version
      └────────────────────────────────────────────────────────────────────────────────────────┘""")
 
 print(logo)
