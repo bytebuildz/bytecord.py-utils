@@ -12,7 +12,7 @@ logo = fade.purplepink(f"""
 
                                                                          
      ┌────────────────────────────────────────────────────────────────────────────────────────┐
-                      Current Version: 13.0.7 | You`re using the latest version
+                      Current Version: 13.0.9 | You`re using the latest version
      └────────────────────────────────────────────────────────────────────────────────────────┘""")
 
 print(logo)
