@@ -22,6 +22,7 @@ def purplepink(text):
             if red > 255:
                 red = 255
     return faded
+    print(faded)
 
 def greenblue(text):
     system(""); faded = ""
